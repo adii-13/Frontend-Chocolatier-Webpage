@@ -1,0 +1,358 @@
+
+/* Navigation Bar */
+nav {
+    width: 100%;
+    height: 60px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+* {
+    margin: 0px;
+}
+
+h1 {
+    font-family: 'Century Gothic';
+}
+
+h1 b {
+    color: aqua;
+}
+
+#content {
+    display: flex;
+}
+
+#content a {
+    margin: 0px 15px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Malgun Gothic';
+    font-weight: bold;
+}
+
+/* Main Content */
+main {
+    width: 100%;
+    height: 500px;
+}
+
+main>img {
+    width: 100vw;
+    height: 550px;
+}
+
+#btn1 {
+    background-color: rgb(39, 37, 37);
+    color: white;
+    position: absolute;
+    bottom: 190px;
+    left: 610px;
+    padding: 10px 20px;
+    border-radius: 3px;
+    border: 1px solid rgb(39, 37, 37);
+    cursor: pointer;
+}
+#btn1:hover{
+    background-color:  rgb(216, 216, 216);
+    color:black;
+    transition: 0.3s;
+}
+
+main>h1 {
+    font-family: 'Century Gothic';
+    position: absolute;
+    bottom: 300px;
+    left: 290px;
+    color: rgb(255, 249, 249);
+    letter-spacing: 2px;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+#layouttext {
+    font-family: 'Century Gothic';
+    left: 320px;
+    font-size: 50px;
+    position: absolute;
+    bottom: 250px;
+    font-weight: lighter;
+}
+#content a:hover{
+  color: aqua;
+}
+
+/* Attribute and Icons */
+section {
+    background-color: white;
+    width: 100%;
+    height: 370px;
+    display: flex;
+    justify-self: space-around;
+    align-items: center;
+}
+
+/* #pen{
+    margin-top: 50px;
+    margin-left: 250px;
+    
+} */
+/* #layer{
+    margin-top: 50px;
+    margin-left: 250px;
+    
+} */
+/* #shuttle{
+    margin-top: 50px;
+    margin-left: 250px;
+} */
+#layer {
+    margin-left: 200px;
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 30%;
+}
+
+#shuttle {
+    margin-left: 200px;
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 30%;
+}
+
+#pen {
+    margin-left: 200px;
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 30%;
+}
+
+.span1 {
+    font-size: larger;
+    letter-spacing: 4px;
+    line-height: 50px;
+    margin-left: 202px;
+    /* margin-left: 200px; */
+    font-family: 'Century Gothic';
+    font-weight: bold;
+
+}
+
+.span2 {
+    font-size: larger;
+    letter-spacing: 4px;
+    line-height: 50px;
+    margin-left: 177px;
+    /* text-align: center; */
+    /* margin-left: 200px; */
+    font-family: 'Century Gothic';
+    font-weight: bold;
+}
+
+.span3 {
+    font-size: larger;
+    letter-spacing: 4px;
+    line-height: 50px;
+    margin-left: 195px;
+    /* text-align: center; */
+    /* margin-left: 200px; */
+    font-family: 'Century Gothic';
+    font-weight: bold;
+}
+
+#p1 {
+    text-align: center;
+    font-family: 'Century Gothic';
+    padding: 15px;
+    margin:0px 40px;
+}
+
+#p2 {
+    text-align: center;
+    margin:0px 40px;
+    font-family: 'Century Gothic';
+    padding: 15px;
+}
+
+#p3 {
+    text-align: center;
+    padding: 15px;
+    margin:0px 40px;
+    /* text-indent: 30px; */
+    font-family: 'Century Gothic';
+}
+.sec2{
+    background-color: rgb(216, 216, 216);
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    width: 100%;
+    height:600px;
+}
+.sec3{
+    width:100%;
+    height:300px;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+article{
+    margin-top:20px;
+}
+article>hr{
+    width: 20%;
+    height: 2px;
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    /* margin:0px 20px; */
+    background-color: cyan;
+    margin:auto 330px;
+    border-style: none;
+}
+.sec2 h1{
+    font-size: 22px;
+    padding: 10px;
+}
+article>p{
+    text-align: center;
+    width: 800px;
+    padding:10px;
+}
+video {
+    display: block;
+    width: 700px;
+    height: auto;
+    border: 2px solid none; 
+    border-radius: 5px;
+  }
+  #s1{
+    display: flex;
+    background-color: grey;
+    height: 200px;
+    width:400px;
+    border-radius: 5px;
+
+  }
+  #s2{
+    display: flex;
+    background-color: grey;
+    height: 200px;
+    width:400px;
+    border-radius: 5px;
+  }
+  #e1{
+    font-family: 'Century Gothic';
+    text-align: center;
+    margin-top: 10px;
+  }
+  #e1>p{
+    line-height: 20px;
+    font-size: 12px;
+  }
+  #e1>hr{
+    width: 30%;
+    height: 1px;
+    background-color: aqua;
+    border-radius: 2px;
+    border-style: none;
+    margin:10px 70px 5px;
+  }
+  #e1>button{
+    padding: 5px;
+    background-color: transparent;
+    border-radius: 2px;
+    border-color: cyan;
+    border-style: dashed;
+    cursor: pointer;
+    transition: 0.3s;
+    
+  }
+  #e1 button:hover{
+    background-color: aqua;
+  }
+
+  #f1{
+    font-family: 'Century Gothic';
+    text-align: center;
+    margin-top: 10px;
+  }
+  #f1>p{
+    line-height: 20px;
+    font-size: 12px;
+  }
+  #f1>hr{
+    width: 30%;
+    height: 1px;
+    background-color: aqua;
+    border-radius: 2px;
+    border-style: none;
+    margin:10px 70px 5px;
+  }
+  #f1>button{
+    padding: 5px;
+    background-color: transparent;
+    border-radius: 2px;
+    border-color: cyan;
+    border-style: dashed;
+    cursor: pointer;
+    transition: 0.3s;
+    
+  }
+  #f1 button:hover{
+    background-color: aqua;
+  }
+  #f2>img{
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+  #e2>img{
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+  footer{
+    background-color: rgb(0, 0, 0);
+    height: 200px;
+    width:100%;
+    text-align: center;
+    margin-top: 10px;
+  }
+  footer h1{
+    font-family: 'Century Gothic';
+    color: white;
+  }
+  footer hr{
+    width:10%;
+    height: 2px;
+    border-style: none;
+    border-radius: 2px;
+    background-color: aqua;
+    margin:5px 600px;
+    
+    
+  }
+  footer p{
+    color: aqua;
+    font-family: 'Century Gothic';
+    text-align: center;
+    margin:10px 40px;
+    font-style: italic;
+  }
+  footer button{
+    background-color: transparent;
+    color:white;
+    padding:10px 10px;
+    border-radius: 2px;
+    cursor: pointer;
+    border-color: aqua;
+    border-width:2px;
+    border-style: dashed;
+  }
+  footer button:hover{
+    background-color: cyan;
+    color:black;
+    /* border-style: dotted; */
+    transition: 0.3s;
+  }
